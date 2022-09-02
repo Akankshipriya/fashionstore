@@ -8,31 +8,7 @@ namespace fashionstore
 {
     class Program
     {
-        public void Item()
-        {
-            Console.WriteLine("Enter 1 to insert\nEnter 2 to delete\nEnter 3 to update\nEnter 4 to display");
-            int choices = int.Parse(Console.ReadLine());
-            switch(choices)
-            {
-                case 1:
-                    
-                    break;
-
-                case 2:
-                    break;
-
-                case 3:
-                    break;
-
-                case 4:
-                    break;
-
-                default:
-                    Console.WriteLine("Invalid Input");
-                    break;
-            }
-
-        }
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Enter your choices\nPress 1 for Category\nPress 2 for Product");
